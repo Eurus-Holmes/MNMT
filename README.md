@@ -1,4 +1,4 @@
-# Multi-modal Neural Machine Translation
+# Multimodal Neural Machine Translation
 
 
 This is the implementation of **four different multi-modal neural machine translation models** described in the research papers [(1)](http://aclweb.org/anthology/D17-1105) and [(2)](https://aclweb.org/anthology/P/P17/P17-1175.pdf).
