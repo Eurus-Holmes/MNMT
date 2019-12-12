@@ -93,7 +93,7 @@ That is the same way as you would do with a text-only NMT model. **Important**: 
 In here, we assume you have downloaded the [Multi30k data set](http://www.statmt.org/wmt16/multimodal-task.html) and extracted the sentences in its training, validation and test sets. After pre-processing them (e.g. tokenising, lowercasing, and applying a [BPE model](https://github.com/rsennrich/subword-nmt)), feed the training and validation sets to the `preprocess.py` script, as below.
 
 ```bash
-python preprocess.py -train_src ./path/to/flickr30k/train.norm.tok.lc.bpe10000.en -train_tgt./path/to/flickr30k/train.norm.tok.lc.bpe10000.de -valid_src ./path/to/flickr30k/val.norm.tok.lc.bpe10000.en -valid_tgt ./path/to/flickr30k/val.norm.tok.lc.bpe10000.de -save_data ./data/m30k
+python preprocess.py -train_src ./path/to/flickr30k/train.norm.tok.lc.10000bpe.en -train_tgt./path/to/flickr30k/train.norm.tok.lc.10000bpe.de -valid_src ./path/to/flickr30k/val.norm.tok.lc.10000bpe.en -valid_tgt ./path/to/flickr30k/val.norm.tok.lc.10000bpe.de -save_data ./data/m30k
 ```
 
 
