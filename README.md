@@ -104,7 +104,7 @@ To train a multi-modal NMT model, use the `train_mm.py` script. In addition to t
 For a complete description of the different multi-modal NMT model types, please refer to the papers where they are described [(1)](http://aclweb.org/anthology/D17-1105) and [(2)](https://aclweb.org/anthology/P/P17/P17-1175.pdf).
 
 ```bash
-python train_mm.py -data data/m30k -save_model model_snapshots/IMGD_ADAM -gpuid 0 -epochs 25 -batch_size 40 -path_to_train_img_feats /path/to/flickr30k/features/flickr30k_train_vgg19_bn_cnn_features.hdf5 -path_to_valid_img_feats /path/to/flickr30k/features/flickr30k_valid_vgg19_bn_cnn_features.hdf5 -optim adam -learning_rate 0.002 -use_nonlinear_projection --multimodal_model_type imgd
+python train_mm.py -data data/m30k -save_model model_snapshots/IMGD_ADAM -gpuid 0 -epochs 25 -batch_size 40 -path_to_train_img_feats ./flickr30k_train_vgg19_bn_cnn_features.hdf5 -path_to_valid_img_feats ./flickr30k_valid_vgg19_bn_cnn_features.hdf5 -optim adam -learning_rate 0.002 -use_nonlinear_projection --multimodal_model_type imgd
 ```
 
 In case you want to continue training from a previous checkpoint, simply run (for example):
