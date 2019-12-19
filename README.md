@@ -12,45 +12,18 @@ They are based on the [Pytorch](https://github.com/pytorch/pytorch) port of [Ope
  
 ## Requirements
 
-The code is successfully tested on PyTorch=1.3.1 and torchtext=0.2.3. If you have any questions, feel free add issue.
+The code is successfully tested on PyTorch=1.3.1 and torchtext=0.2.3. If you have any questions, you could see my [issues](https://github.com/Eurus-Holmes/MNMT/issues?q=is%3Aissue+is%3Aclosed) or feel free add [issue](https://github.com/Eurus-Holmes/MNMT/issues).
 
 In case one of the two are missing or not up-to-date and assuming you installed pytorch using the conda package manager and torchtext using pip, you might want to run the following:
 
 ```bash
 conda install -c soumith pytorch
-pip install torchtext --upgrade
+pip install torchtext==0.2.3
 pip install -r requirements.txt
-pip install pretrainedmodels
-conda update pytorch
 ```
 
 
-
-
-
-## Features
-
-The following OpenNMT features are implemented:
-
-- [data preprocessing](http://opennmt.net/OpenNMT-py/options/preprocess.html)
-- [Inference (translation) with batching and beam search](http://opennmt.net/OpenNMT-py/options/translate.html)
-- [Multiple source and target RNN (lstm/gru) types and attention (dotprod/mlp) types](http://opennmt.net/OpenNMT-py/options/train.html#model-encoder-decoder)
-- [TensorBoard/Crayon logging](http://opennmt.net/OpenNMT-py/options/train.html#logging)
-- [Source word features](http://opennmt.net/OpenNMT-py/options/train.html#model-embeddings)
-- [Pretrained Embeddings](http://opennmt.net/OpenNMT-py/FAQ.html#how-do-i-use-pretrained-embeddings-e-g-glove)
-- [Copy and Coverage Attention](http://opennmt.net/OpenNMT-py/options/train.html#model-attention)
-- [Image-to-text processing](http://opennmt.net/OpenNMT-py/im2text.html)
-- [Speech-to-text processing](http://opennmt.net/OpenNMT-py/speech2text.html)
-
-Beta Features (committed):
-- multi-GPU
-- ["Attention is all you need"](http://opennmt.net/OpenNMT-py/FAQ.html#how-do-i-use-the-transformer-model)
-- Structured attention
-- [Conv2Conv convolution model]
-- SRU "RNNs faster than CNN" paper
-- Inference time loss functions.
-
-## Multi-modal NMT Quickstart
+## Run the Code
 
 ### Step 0: Extract the image features for the Multi30k data set.
 
