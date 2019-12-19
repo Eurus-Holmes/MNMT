@@ -12,10 +12,7 @@ They are based on the [Pytorch](https://github.com/pytorch/pytorch) port of [Ope
  
 ## Requirements
 
-```
-torchtext>=0.2.1
-pytorch>=0.2
-```
+The code is successfully tested on PyTorch=1.3.1 and torchtext=0.2.3. If you have any questions, feel free add issue.
 
 In case one of the two are missing or not up-to-date and assuming you installed pytorch using the conda package manager and torchtext using pip, you might want to run the following:
 
@@ -26,6 +23,10 @@ pip install -r requirements.txt
 pip install pretrainedmodels
 conda update pytorch
 ```
+
+
+
+
 
 ## Features
 
