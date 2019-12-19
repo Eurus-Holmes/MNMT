@@ -1,0 +1,7 @@
+tables
+torchvision
+pretrainedmodels
+six
+tqdm
+torchtext==0.2.3
+future
