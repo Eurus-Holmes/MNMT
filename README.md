@@ -84,6 +84,10 @@ MODEL_SNAPSHOT=IMGD_ADAM_acc_60.79_ppl_8.38_e4.pt
 python translate_mm.py -src ~/exp/opennmt_imgd/data_multi30k/test2016.norm.tok.lc.bpe10000.en -model model_snapshots/${MODEL_SNAPSHOT} -path_to_test_img_feats ~/resources/multi30k/features/flickr30k_test_vgg19_bn_cnn_features.hdf5 -output model_snapshots/${MODEL_SNAPSHOT}.translations-test2016
 ```
 
+### Todo
+
+ - [Strange Results](https://github.com/Eurus-Holmes/MNMT/issues/8)
+
 ## Citation
 
 If you use the multi-modal NMT models in this repository, please consider citing the research papers where they are described [(1)](http://aclweb.org/anthology/D17-1105) and [(2)](https://aclweb.org/anthology/P/P17/P17-1175.pdf):
