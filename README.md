@@ -5,6 +5,10 @@
 > This is the implementation of **four different multi-modal neural machine translation models** described in the research papers [(1)](http://aclweb.org/anthology/D17-1105) and [(2)](https://aclweb.org/anthology/P/P17/P17-1175.pdf).
 They are based on the [Pytorch](https://github.com/pytorch/pytorch) port of [OpenNMT](https://github.com/OpenNMT/OpenNMT), an open-source (MIT) neural machine translation system.
 
+## Related Work
+
+ - [papers](https://github.com/Eurus-Holmes/MNMT/tree/master/papers)
+ 
 ## Dataset
 
  - [Multi30k Dataset](https://github.com/multi30k/dataset)
