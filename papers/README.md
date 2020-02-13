@@ -1,4 +1,4 @@
-# **Resource List w/ abstract**
+# **Resource List**
 
 > Based on this [repo](https://github.com/ZihengZZH/awesome-multimodal-machine-translation).
 
