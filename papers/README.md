@@ -1,7 +1,6 @@
 **Resource List w/ abstract**
 
 - [Paper](#paper)
-    - [MHSAN: Multi-Head Self-Attention Network for Visual Semantic Embedding](#mhsan-multi-head-self-attention-network-for-visual-semantic-embedding)
 - [Datasets](#datasets)
 - [Metrics](#metrics)
 - [Tutorials](#tutorials)
