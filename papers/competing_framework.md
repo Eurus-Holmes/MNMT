@@ -1,6 +1,6 @@
 # Comparison of competing frameworks
 
-> Refer to this [repo](https://github.com/ZihengZZH/awesome-multimodal-machine-translation).
+> Referred to this [repo](https://github.com/ZihengZZH/awesome-multimodal-machine-translation).
 
 According to the category introduced in [the introduction slides by Barrault](https://www.clsp.jhu.edu/wp-content/uploads/sites/75/2018/06/2018-06-22-Barrault-Multimodal-MT.pdf), the competing frameworks in multimodal machine translation are categorized into the following subgroups:
 1. Multimodal Attention Mechanism 
