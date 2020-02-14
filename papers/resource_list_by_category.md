@@ -1,6 +1,6 @@
 **Resource List**
 
-> Refer to this [repo](https://github.com/ZihengZZH/awesome-multimodal-machine-translation).
+> Referred to this [repo](https://github.com/ZihengZZH/awesome-multimodal-machine-translation).
 
 - [Paper by category](#paper-by-category)
     - [Neural Machine Translation](#neural-machine-translation)
