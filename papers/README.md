@@ -1,6 +1,6 @@
 # **Resource List**
 
-> Based on this [repo](https://github.com/ZihengZZH/awesome-multimodal-machine-translation).
+> Referred to this [repo](https://github.com/ZihengZZH/awesome-multimodal-machine-translation).
 
 - [Paper](#paper)
 - [Datasets](#datasets)
