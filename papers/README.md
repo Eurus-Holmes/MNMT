@@ -2,7 +2,7 @@
 
 > Referred to this [repo](https://github.com/ZihengZZH/awesome-multimodal-machine-translation).
 
-- [Paper](#paper)
+- [Papers](#paper)
 - [Datasets](#datasets)
 - [Metrics](#metrics)
 - [Tutorials](#tutorials)
