@@ -38,14 +38,14 @@
 #### A Survey of Current Datasets for Vision and Language Research [[pdf](https://aclweb.org/anthology/D15-1021)]<!-- omit in toc -->
   * Ferraro et al. (2015)
   * EMNLP'15
-  * Integrating vision and language has long been a dream in work of artificial intelligence (AI). In the past two years, we have witnessed an explosion of work that brings together vision and language from images to videos and beyond. The available corpora have played a crucial role in advancing this area of research. In this paper, we propose a set of quality metrics for evaluating and analyzing the vision & language datasets and categorize them accordingly. Our analyses show that the most recent datasets have been using more complex language and more abstract concepts, however, there are different strengths and weaknesses in each
+  * Integrating vision and language has long been a dream in work of artificial intelligence (AI). In the past two years, we have witnessed an explosion of work that brings together vision and language from images to videos and beyond. The available corpora have played a crucial role in advancing this area of research. In this paper, we propose a set of quality metrics for evaluating and analyzing the vision & language datasets and categorize them accordingly. Our analyses show that the most recent datasets have been using more complex language and more abstract concepts, however, there are different strengths and weaknesses in each.
 
 **2016** {#8}
 
 #### Does Multimodality Help Human and Machine for Translation and Image Captioning? [[pdf](https://arxiv.org/pdf/1605.09186.pdf)] <!-- omit in toc -->
   * Caglayan et al. (2016)
   * WMT'16
-  * This paper presents the systems developed by LIUM and CVC for the WMT16 Multimoadl Machine Translation challenge. We explored various comparative methods, namely phrase-based systems and attentional recurrent neural networks models trained using monomodal or multimodal data. We also performed a human evaluation in order to estimate the usefulness of multimodal data for human machine translation and image description generation. Our systems obtained the best results for both tasks according to the automatic evaluation metrics BLEU and METEOR
+  * This paper presents the systems developed by LIUM and CVC for the WMT16 Multimoadl Machine Translation challenge. We explored various comparative methods, namely phrase-based systems and attentional recurrent neural networks models trained using monomodal or multimodal data. We also performed a human evaluation in order to estimate the usefulness of multimodal data for human machine translation and image description generation. Our systems obtained the best results for both tasks according to the automatic evaluation metrics BLEU and METEOR.
 
 #### Multimodal Attention for Neural Machine Translation [[pdf](https://arxiv.org/pdf/1609.03976.pdf)] <!-- omit in toc -->
   * Caglayan et al. (2016) 
